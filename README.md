@@ -2,15 +2,19 @@
 这是一个手势密码库，可直接依赖，替换MainActivity和strings文件，里面有相关字符，也可以自定义进入手势页面，通过onActivityResult返回主界面。
 
 步骤如下：
+
 1.allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
+	
 2.implementation 'com.github.GitHubwbb123:HandLibrary:v1.0.0'
+
 3.MainActivity.java
-  package com.wxb.handlock;
+
+  package com.wxb.包名;
 
 import android.content.Intent;
 import android.support.annotation.Nullable;
@@ -72,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wxb.handlock.MainActivity">
+    tools:context="com.wxb.包名.MainActivity">
 
     <TextView
         android:id="@+id/patternlock_setting"
