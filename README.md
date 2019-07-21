@@ -116,3 +116,4 @@ public class MainActivity extends AppCompatActivity {
 </resources>
 搞定！！！
 
+注意修改包名！！切记
